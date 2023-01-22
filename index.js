@@ -158,7 +158,7 @@ client.on('messageCreate', msg => {
         
         if (msg.content === process.env.PREFIX + '캐릭터 요요') msg.channel.send(`방랑자에 대한 정보야\nhttps://genshin.jurie.tv/ko/characters/yaoyao/`);
         
-        if (msg.content === process.env.PREFIX + '캐릭터 알하이탐') msg.channel.send(`방랑자에 대한 정보야\nhttps://genshin.jurie.tv/ko/characters/alhaitam/`);
+        if (msg.content === process.env.PREFIX + '캐릭터 알하이탐') msg.channel.send(`알하이탐에 대한 정보야\nhttps://genshin.jurie.tv/ko/characters/alhaitam/`);
         
         if(msg.content === process.env.PREFIX + 'server') {
             msg.channel.send(`현재 서버의 이름은 ${msg.guild.name} 입니다.\n총 멤버 수는 ${msg.guild.memberCount} 명 입니다.`)
