@@ -7,7 +7,7 @@ const sleep = (ms) => {
     return new Promise((r) => setTimeout(r, ms));
 }
 
-if (process.env.TOKEN == null) {
+if (process.env.TOKEN == MTA2NjM4OTc3MDk0MDQ2NTE3Mg.Gee6Xe.rlXtF2cMA0J6_aXshSNbg-X6noxaWHP6TlJ954) {
     console.log("An discord token is empty.");
     sleep(60000).then(() => console.log("Service is getting stopped automatically"));
     return 0;
