@@ -39,6 +39,8 @@ client.on("ready" , () => {
 client.on('messageCreate', msg => {
 
     try { 
+        if (msg.content === process.env.PREFIX + '명령어') msg.channel.send('채팅으로 !캐릭터 [ (검색하고자 하는 캐릭터 이름) ] 을 조합하여\n해당 캐릭의 정보를 검색할 수 있습니다!');
+        
         if (msg.content === process.env.PREFIX + '캐릭터 각청') msg.channel.send(`내 정보를 가져올께!\nhttps://genshin.jurie.tv/ko/characters/keqing/`);
         
         if (msg.content === process.env.PREFIX + '캐릭터 아야토') msg.channel.send(`카미사토 아야토에 대한 정보야\nhttps://genshin.jurie.tv/ko/characters/ayato/`);
