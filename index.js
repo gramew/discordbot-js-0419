@@ -26,7 +26,6 @@ const discordLogin = async() => {
 discordLogin();
 
 client.on('ready', () => {
-    client.user.setActivity('각청' ,{type:'STREAMING'}};
     console.log(`Logged in as ${client.user.tag}.`);
 });
 
