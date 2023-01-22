@@ -35,8 +35,6 @@ client.on("ready" , () => {
     
 });
 
-client.on(Events.InteractionCreate, async interaction => {
-	if (!interaction.isChatInputCommand()) return;
   
 client.on('messageCreate', msg => {
 
