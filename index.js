@@ -31,7 +31,7 @@ client.on('ready', () => {
 
 client.on("ready" , () => {
     console.log("각청이 일어났떠여!")
-    client.user.setActivity('일' , { type: "PLAYING"})
+    client.user.setActivity('!명령어로 사용법 익히기' , { type: "COMPETING"})
     
 });
 
