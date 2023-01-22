@@ -34,7 +34,9 @@ client.on('ready', () => {
 client.on('messageCreate', msg => {
 
     try { 
-        if (msg.content === process.env.PREFIX + 'call') msg.channel.send(`!callback`);
+        if (msg.content === process.env.PREFIX + '캐릭터 각청') msg.channel.send(`내 정보를 가져올께!\nhttps://genshin.jurie.tv/ko/characters/keqing/`);
+        
+        
 
         if (msg.content === process.env.PREFIX + 'avatar') msg.channel.send(msg.author.displayAvatarURL());
         
