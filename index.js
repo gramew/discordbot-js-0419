@@ -41,7 +41,7 @@ client.on(Events.InteractionCreate, async interaction => {
 client.on('messageCreate', msg => {
 
     try { 
-        if (interaction.commandName === 'ping') {
+        if (interaction.commandName === '!명령어') {
             msg.channel.send({ content: '채팅으로 !캐릭터 [ (검색하고자 하는 캐릭터 이름) ] 을 조합하여\n해당 캐릭의 정보를 검색할 수 있습니다!' });
         }
         
