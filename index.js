@@ -29,6 +29,12 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}.`);
 });
 
+client.on("ready" , () => {
+    console.log("각청이 일어났떠여!")
+    client.user.setActivity('일' , { type: "PLAYING"})
+    
+});
+
   
 client.on('messageCreate', msg => {
 
